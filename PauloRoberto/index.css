@@ -1,0 +1,109 @@
+*{
+  margin: 0px;
+  width: auto;
+  height: auto;
+  background: linear-gradient(260deg, rgba(142,34,195,1) 21%, rgba(218,136,3,1) 91%);
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#apresentacao img{
+  display: flex;
+  border-radius: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 384px;
+  }
+
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  #texto{
+    background: rgb(142,34,195);
+    background: linear-gradient(260deg, rgba(142,34,195,1) 21%, rgba(218,136,3,1) 91%);
+  }
+ p{
+  margin-left: 30px;
+  font-size: 40px;
+ }
+ footer{
+  font-size: 40px;
+  text-align: center;
+ }
+#apresentacao{
+  display: flex;
+
+}
+
+  
+  .navbar {
+    overflow: hidden;
+    background: rgb(142,34,195);
+    background: linear-gradient(260deg, rgba(142,34,195,1) 21%, rgba(218,136,3,1) 91%);  }
+  
+  .navbar a {
+    float: left;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 20%;
+    margin-left: 30px;
+    background: linear-gradient(260deg, rgba(142,34,195,0) 21%, rgba(218,136,3,1) 91%);
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 60px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    border-radius: 20%;
+    margin-left: 30px;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: linear-gradient(260deg, rgba(142,34,195,0) 21%, rgba(218,136,3,1) 91%);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: linear-gradient(260deg, rgba(142,34,195,1) 21%, rgba(218,136,3,1) 91%);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20%;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  img.logo{
+    height: 40px;
+    width: 40px;
+  }
